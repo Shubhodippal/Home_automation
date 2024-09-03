@@ -2,9 +2,9 @@
 #include <HTTPClient.h>
 #include <ArduinoJson.h> 
 
-const char* ssid = "ShubhodipPal";
-const char* password = "19122003#";
-const char* serverUrl = "https://home.shubhodip.in/get_data.php";
+const char* ssid = "";
+const char* password = "";
+const char* serverUrl = "";
 
 const int relayCount = 4;
 const int relayPins[relayCount] = {2, 3, 4, 5}; 
